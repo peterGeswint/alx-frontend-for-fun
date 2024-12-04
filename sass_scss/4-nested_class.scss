@@ -1,0 +1,10 @@
+/* 4-nested_class.scss */
+/* Task: Assign text color #3D3D3D to elements inside the body tags and the color #FF0000 toany elements of class .red inside body tags */
+
+body {
+	color: #3D3D3D;
+
+	.red {
+		color: #FF0000;
+	}
+}
