@@ -1,0 +1,10 @@
+/* 11-loo_photos.scss */
+/* Task: Create a class for each name and assign a background image */
+
+@import '11-photos.scss';
+
+@each $name in $list-names {
+	.photo-#{$name} {
+		background: image-url("photos/#{$name}.jpg") no-repeats;
+	}
+}
