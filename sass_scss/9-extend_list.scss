@@ -1,0 +1,16 @@
+/* 9-extend_list.scss */
+/* Task: Assigns font size to .info and extends it to .success and .warning */
+
+.info {
+	font-size: 12px;
+}
+
+.success {
+	@extend .info;
+	color: #00FF00;
+}
+
+.warning {
+	@extend .info;
+	color: #FF0000;
+}

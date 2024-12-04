@@ -1,0 +1,16 @@
+/* 10-import_color.scss */
+/* task: Imports color variables and assign them to the respective classes */
+
+@import '10-colors';
+
+.red {
+	color: $red;
+}
+
+.green {
+	color: $green;
+}
+
+.blue {
+	color: $blue;
+}

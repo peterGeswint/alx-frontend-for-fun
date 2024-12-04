@@ -1,0 +1,15 @@
+/* 8-mixin_margin.scss */
+/* Task: Assign margin using a mixin */
+
+@mixin margin-left-right($margin) {
+	margin-left: $margin;
+	margin-right: $margin;
+}
+
+body {
+	@include margin-left-right(10px);
+}
+
+div {
+	@include margin-left-right(15px);
+}
