@@ -1,0 +1,11 @@
+/* 6-nested_hover.scss */
+/* Task: Assign text colors to buttons tags and hover states using nested declarations */
+
+button {
+	color: #FF0000;
+	
+
+	&:hover {
+		color: #00FF00;
+	}
+}
