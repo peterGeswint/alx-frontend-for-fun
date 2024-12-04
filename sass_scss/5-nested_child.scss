@@ -1,0 +1,10 @@
+/* 5-nested_child.scss */
+/* Task: Assign text colors to nested elements using child selectors */
+
+body {
+	color: #3D3D3D;
+
+	> .red {
+		color: #FF0000;
+	}
+}
