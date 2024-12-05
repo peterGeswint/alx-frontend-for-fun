@@ -1,14 +1,7 @@
-/* Card WORK */
+
+
 .card-work .card-title {
     opacity: 0;
-}
-
-.card-work:hover .card-inner {
-    /* Add any required styles */
-}
-
-.card-work:hover .card-title {
-    /* Add any required styles */
 }
 
 .card-work .card-title a {
