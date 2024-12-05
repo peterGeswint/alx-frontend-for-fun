@@ -1,12 +1,23 @@
-
-.card-work a:focus {
-  outline: 2px solid #FFD700; 
-  outline-offset: 4px;        
-  border-radius: 4px;         
+/* Card WORK */
+.card-work .card-title {
+    opacity: 0;
 }
 
-.card-work a:hover {
-  outline: 2px solid #FFD700;
-  outline-offset: 4px;
-  border-radius: 4px;
+.card-work:hover .card-inner {
+    /* Add any required styles */
+}
+
+.card-work:hover .card-title {
+    /* Add any required styles */
+}
+
+.card-work .card-title a {
+    opacity: 0;
+}
+
+.card-work:hover .card-title a,
+.card-work .card-title a:focus {
+    opacity: 1;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
 }
