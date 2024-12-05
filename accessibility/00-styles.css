@@ -1,0 +1,12 @@
+
+.card-work a:focus {
+  outline: 2px solid #FFD700; 
+  outline-offset: 4px;        
+  border-radius: 4px;         
+}
+
+.card-work a:hover {
+  outline: 2px solid #FFD700;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
