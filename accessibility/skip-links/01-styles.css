@@ -1,0 +1,39 @@
+/* Helpers */
+
+/* Visually hidden elements */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Off-screen elements */
+.off-screen {
+    position: absolute;
+    left: -100vw;
+}
+
+/* Skip-link styles */
+.skip-link {
+    background: var(--color-black);
+    color: var(--color-white);
+    left: 0;
+    padding: 0.7rem;
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    z-index: 10;
+    transform: translateY(-1rem);
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+/* Skip-link focus state */
+.skip-link:focus {
+    opacity: 1;
+    transform: translateY(0);
+}
